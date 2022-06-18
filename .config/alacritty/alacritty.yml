@@ -1,6 +1,4 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Import additional configuration files
 #
 # Imports are loaded in order, skipping all missing files, with the importing
 # file being loaded last. If a field is already present in a previous import, it
@@ -60,7 +58,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.90
+  opacity: 0.80
 
   # Startup Mode (changes require restart)
   #
@@ -104,7 +102,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Jetbrains Mono
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular

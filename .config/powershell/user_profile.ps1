@@ -1,13 +1,8 @@
-# Start
-Invoke-Expression "winfetch"
-
-# Prompt
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-PoshPrompt di4am0ndt
+## Theming
+Import-Module -Name Terminal-Icons
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/tokyo.omp.json" | Invoke-Expression 
 
 # PSReadLine
-Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
 Set-PSReadLineOption -PredictionSource History
